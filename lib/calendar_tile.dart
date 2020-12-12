@@ -76,7 +76,7 @@ class CalendarTile extends StatelessWidget {
                           ? Colors.white
                           : Utils.isSameDay(this.date, DateTime.now())
                               ? todayColor
-                              : inMonth ? Colors.black : Colors.grey),
+                              : inMonth ? Colors.white : Colors.grey),
                 ),
                 events != null && events.length > 0
                     ? Row(
